@@ -13,15 +13,15 @@ pubKey = ""
 startDate = ""
 endDate = ""
 
-while fileName = "":
+while fileName == "":
 	fileName = raw_input("Name your output File: ")	
-while apiKey = "":
+while apiKey == "":
 	apiKey = raw_input("\nEnter the Access Token: ")
-while pubKey = "":
+while pubKey == "":
 	pubKey = raw_input("\nEnter the Publisher Key: ")
-while startDate = "":
+while startDate == "":
 	startDate = raw_input("\nEnter the start date: (YYYY-MM-DD)")
-while endDate = "":
+while endDate == "":
 	endDate = raw_input("\nEnter the end date: (YYYY-MM-DD)")
 	
 
