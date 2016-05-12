@@ -7,21 +7,22 @@ from requests.auth import HTTPDigestAuth
 import json
 import export 
 
-fileName = raw_input("Name your output File: ")
-if fileName == "":
-	sys.exit("you didn't enter a file name")
-apiKey = raw_input("\nEnter the Access Token: ")
-if apiKey == "":
-	sys.exit("you didn't enter an API Key")
-pubKey = raw_input("\nEnter the Publisher Key: ")
-if pubKey == "":
-	sys.exit("you didn't enter an publisher key")
-startDate = raw_input("\nEnter the start date: (YYYY-MM-DD)")
-if startDate == "":
-	sys.exit("you didn't enter a date")
-endDate = raw_input("\nEnter the end date: (YYYY-MM-DD)")
-if endDate == "":
-	sys.exit("you didn't enter a date")
+fileName = ""
+apiKey = ""
+pubKey = ""
+startDate = ""
+endDate = ""
+
+while fileName = "":
+	fileName = raw_input("Name your output File: ")	
+while apiKey = "":
+	apiKey = raw_input("\nEnter the Access Token: ")
+while pubKey = "":
+	pubKey = raw_input("\nEnter the Publisher Key: ")
+while startDate = "":
+	startDate = raw_input("\nEnter the start date: (YYYY-MM-DD)")
+while endDate = "":
+	endDate = raw_input("\nEnter the end date: (YYYY-MM-DD)")
 	
 
 
