@@ -12,6 +12,8 @@ apiKey = raw_input("\nEnter the Access Token: ")
 pubKey = raw_input("\nEnter the Publisher Key: ")
 startDate = raw_input("\nEnter the start date: (YYYY-MM-DD)")
 endDate = raw_input("\nEnter the end date: (YYYY-MM-DD)")
+
+
 # Replace with the correct URL
 urlDaily = "http://api.po.st/analytics/v1/daily.json?access-token="+accessToken+"&pubkey="+pubKey+"&period-from="+startDate+"&period-to="+endDate
 urlServices = "http://api.po.st/analytics/v1/services.json?access-token="+accessToken+"&pubkey="+pubKey+"&period-from="+startDate+"&period-to="+endDate
