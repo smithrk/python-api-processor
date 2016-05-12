@@ -16,23 +16,23 @@ endDate = ""
 while fileName == "":
 	fileName = raw_input("File name: ")	
 	if fileName == "Exit" or fileName == "exit":
-		break
+		sys.exit("Stopping")
 while apiKey == "":
 	apiKey = raw_input("\nEnter the Access Token: ")
 	if apiKey == "Exit" or fileName == "exit":
-		break
+		sys.exit("Stopping")
 while pubKey == "":
 	pubKey = raw_input("\nEnter the Publisher Key: ")
 	if pubKey == "Exit" or fileName == "exit":
-		break
+		sys.exit("Stopping")
 while startDate == "":
 	startDate = raw_input("\nEnter the start date: (YYYY-MM-DD)")
 	if startDate == "Exit" or fileName == "exit":
-		break
+		sys.exit("Stopping")
 while endDate == "":
 	endDate = raw_input("\nEnter the end date: (YYYY-MM-DD)")
 	if endDate == "Exit" or fileName == "exit":
-		break
+		sys.exit("Stopping")
 	
 
 
